@@ -1,6 +1,3 @@
-import { saludar } from './js/componentes';
-import './styles.css';
+import {obtenerChiste} from './js/http-provider';
 
-const nombre = 'Fernando';
-
-saludar( nombre );
+obtenerChiste().then(console.log);
