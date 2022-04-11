@@ -1,6 +1,7 @@
 // import {init} from './js/chistes-pages';
 // import {init} from './js/usuarios-page';
-import * as crud from './js/crud-provider';
+import {init} from './js/archivos-pages';
+// import * as crud from './js/crud-provider';
 // import {obtenerUsuarios} from './js/http-provider';
 // obtenerUsuarios().then(console.log);
 
@@ -16,4 +17,6 @@ import * as crud from './js/crud-provider';
 //     job: 'developer'
 // },1).then(console.log);
 
-crud.eliminarUsuarios(1).then(console.log);
+// crud.eliminarUsuarios(1).then(console.log);
+
+init();
